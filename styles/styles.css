@@ -76,7 +76,7 @@ p {
 	widows:1;
 }
 
-#inhalt {
+section.left #inhalt {
 	position:			absolute;
 	top:				5rem;
 	left:				0.5rem;
