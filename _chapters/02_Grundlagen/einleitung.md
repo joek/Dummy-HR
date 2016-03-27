@@ -1,5 +1,5 @@
 ---
-title: "Einleitung"
+title: "Grundlagen"
 number: "2"
 ---
 Pfadfinderinnen und Pfadfinder werden “Maker”
