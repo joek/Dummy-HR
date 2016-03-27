@@ -1,13 +1,13 @@
-body {
-        font-family: 'Roboto', Arial, serif;
-        margin:0 1em 0 1em;
-        font-family:Roboto, sans-serif;
-	font-size:0.833em;
-	font-style:normal;
-	font-variant:normal;
-	font-weight:300;
-	line-height:1.44;
-      }
+body,
+html {
+	padding:			0;
+	margin:				0;
+	min-height:			100%;
+	font-family: 'Roboto', Arial, serif;
+	overflow-x:			hidden;
+	background:			#fff;
+}
+
 h1 , section.main-content h2{
 	color:#004287;
     font-family:Roboto, sans-serif;
