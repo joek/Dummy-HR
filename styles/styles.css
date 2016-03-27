@@ -127,3 +127,32 @@ text-decoration: none;
 	height:				5rem;
 	z-index:			999;
 }
+
+ul {
+	list-style: 		none;
+	padding:			0;
+	margin:				0;
+}
+
+a {
+	text-decoration:	none;
+	color:				inherit;
+	color:				#00b9cb;
+	font-family:		fira-sans-regular;
+}
+
+strong {
+	font-family:		fira-sans-semi-bold;
+	font-weight:		normal;
+}
+
+
+header {
+	position:			fixed;
+	top:				0;
+	left:				0;
+	width:				25rem;
+	bottom:				15rem;
+	padding:			0rem;
+}
+
