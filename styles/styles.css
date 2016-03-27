@@ -86,6 +86,13 @@ aside.left {
 	text-align:			justify;
 	font-size:			0.8rem;
 }
+section.main-content {
+	display:			block;
+	max-width:			40rem;
+	margin-left:		25rem;
+	padding-right:		4rem;
+	padding-left:		4rem;
+}
 #inhalt {
 	position:			absolute;
 	top:				5rem;
