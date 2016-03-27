@@ -119,3 +119,11 @@ text-decoration: none;
 	padding-left:		0.5rem;
 	clear:				both;
 }
+
+#vcp-logo {
+	position:			absolute;
+	background:			#f97134;
+	width:				24rem;
+	height:				5rem;
+	z-index:			999;
+}
