@@ -2,10 +2,10 @@
 	{% assign size = page.content | strip | size %}
 	{% if size != 0 %}
 		<article id = "kapitel-{{page.number}}" class ="chapter">
-					<h{{ page.number | split: "." | size | plus: 1}}>
+			<h{{ page.number | split: "." | size | plus: 1}}>
 				<span class ="kapitel-nummer">{{page.number}}</span>
 				{{ page.title }}
-			</h{{ page.number | split: "." | size | plus: 1}>
+			</h{{ page.number | split: "." | size | plus: 1}}>
 			{{page.content | markdownify}}
 		</article>
 	{% else %}
