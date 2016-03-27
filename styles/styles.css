@@ -6,6 +6,8 @@ html {
 	font-family: Roboto, Arial, serif;
 	overflow-x:			hidden;
 	background:			#fff;
+	font-style:normal;
+	font-variant:normal;
 }
 
 h1 , section.main-content h2{
@@ -119,6 +121,7 @@ list-style-type: none;
 #inhalt li .kapitel-nummer {
     float: left;
     text-align: left;
+		font-style:
 }
 
 #inhalt a {
