@@ -76,7 +76,17 @@ p {
 	widows:1;
 }
 
-section.left #inhalt {
+aside.left {
+	position:			fixed;
+	left:				0;
+	bottom:				0;
+	width:				23rem;
+	padding:			1rem;
+	height:				auto;
+	text-align:			justify;
+	font-size:			0.8rem;
+}
+#inhalt {
 	position:			absolute;
 	top:				5rem;
 	left:				0.5rem;
