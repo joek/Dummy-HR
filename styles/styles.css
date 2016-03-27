@@ -121,6 +121,12 @@ list-style-type: none;
     text-align: left;
 }
 
+#inhalt a {
+	text-decoration:	none;
+	color:				inherit;
+	color:				#000;
+}
+
 #vcp-logo {
 	position:			absolute;
 	background:			#004287;
