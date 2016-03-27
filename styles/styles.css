@@ -116,6 +116,11 @@ list-style-type: none;
 	clear:				both;
 }
 
+#inhalt li .kapitel-nummer {
+    float: left;
+    text-align: left;
+}
+
 #vcp-logo {
 	position:			absolute;
 	background:			#004287;
