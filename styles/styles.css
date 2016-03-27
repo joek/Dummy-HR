@@ -107,10 +107,6 @@ section.main-content {
 {
 list-style-type: none;
 }
-#inhalt a:link
-{
-text-decoration: none;
-}
 
 #inhalt li {
 	display:			block;
@@ -138,7 +134,6 @@ a {
 	text-decoration:	none;
 	color:				inherit;
 	color:				#00b9cb;
-	font-family:		fira-sans-regular;
 }
 
 strong {
