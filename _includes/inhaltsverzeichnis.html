@@ -75,7 +75,7 @@
 				<li class = "kapitel-{{number_arr | first}} tiefe-{{number_arr | size}}">
 					<a href ="#kapitel-{{chapter.number}}">
 						<span class = "kapitel-nummer">
-							{% for digit in number_arr %}<span class ="digit">{{ digit }}{% if forloop.last != true %}.{% endif %}</span>{% endfor %}
+							{% for digit in number_arr %}<span class ="nummer">{{ digit }}{% if forloop.last != true %}.{% endif %}</span>{% endfor %}
 						</span>
 						<span class = "kapitel-ueberschrift">	{{chapter.title | markdownify}}	</span>
 					</a>
