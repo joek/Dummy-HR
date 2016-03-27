@@ -86,6 +86,10 @@ p {
 	overflow-x:			hidden;
 	padding-top:		1rem;
 }
+#inhalt ul
+{
+list-style: none;
+}
 section.main-content {
 	display:			block;
 	max-width:			40rem;
