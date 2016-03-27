@@ -123,18 +123,12 @@ list-style-type: none;
 	height:				5rem;
 	z-index:			999;
 }
-#vcp-logo h1:before{
-	content:			'';
-	display:			block;
-	position:			absolute;
-	height:				100%;
-	width:				6.5rem;
-	top:				2px;
-	left:				1rem;
-	background-image:	url('../images/logo/VCP-Wortbildmarke-Transparent-weiß-RGB.png');
-	background-repeat:	no-repeat;
-	background-position:100% 100%;
-	background-size:	6.5rem auto;
+
+
+#VCP-Wortbildmarke {
+margin:0.5em 0 0 0.5em;
+min-width:100%;
+height:auto;
 }
 
 #vcp-logo h1 {
