@@ -90,7 +90,7 @@ p {
 {
 list-style-type: none;
 }
-#inhalt a:
+#inhalt a:link
 {
 text-decoration: none;
 }
