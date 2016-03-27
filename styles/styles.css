@@ -88,7 +88,11 @@ p {
 }
 #inhalt ul
 {
-list-style: none;
+list-style-type: none;
+}
+#inhalt a:
+{
+text-decoration: none;
 }
 section.main-content {
 	display:			block;
