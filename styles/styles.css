@@ -118,11 +118,43 @@ list-style-type: none;
 
 #vcp-logo {
 	position:			absolute;
-	background:			#f97134;
+	background:			#004287;
 	width:				24rem;
 	height:				5rem;
 	z-index:			999;
 }
+#vcp-logo h1:before{
+    content:			'';
+	display:			block;
+	position:			absolute;
+	height:				6.5rem;
+	width:				6.5rem;
+	bottom:				-1.7rem;
+	right:				1rem;
+	background-image:	url('../images/logo/VCP-Wortbildmarke-Transparent-weiß-RGB.png');
+	background-repeat:	no-repeat;
+	background-position:100% 100%;
+	background-size:	6.5rem auto;
+}
+
+#vcp-logo h1 {
+	position:			absolute;
+	bottom:				0;
+	right:				0;
+	font-size:			1.8rem;
+	transform:			rotate(-5deg);
+	transform-origin:	100% 100%;
+	color:				#fff;
+	background:			#f97134;
+	margin:				0rem;
+	width:				18rem;
+	padding-right:		7rem;
+	padding-top:		2rem;
+	padding-bottom:		1rem;
+	text-align:			right;
+	font-family:		Roboto, sans-serif;
+}
+
 
 ul {
 	list-style: 		none;
