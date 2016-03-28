@@ -12,8 +12,11 @@
 
 .vcpwlz-wlz-einzeln-25 {
   content: "y";
-	transform:			rotate(-90deg);
-	transform-origin:	100% 100%;
+	/*transform:			rotate(-90deg);
+	transform-origin:	100% 100%;*/
+}
+.vcpwlz-wlz-einzeln-25:before {
+  content: "y";
 }
 
 body,
