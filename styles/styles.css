@@ -88,6 +88,27 @@ aside.left {
 	text-align:			justify;
 	font-size:			0.8rem;
 }
+
+aside.right {
+	position:			fixed;
+	top:				0;
+	right:				0;
+	width:				4rem;
+	text-align:			center;
+}
+
+aside.right * {
+	display:			block;
+	font-size:			1.5rem;
+	margin:				1rem auto;
+	width:				2em;
+	height:				2em;
+	border-radius: 2em;
+	line-height:   2em;
+	color:				#fff;
+	background:			#004287;
+}
+
 section.main-content {
 	display:			block;
 	max-width:			40rem;
@@ -121,7 +142,6 @@ list-style-type: none;
 #inhalt li .kapitel-nummer {
     float: left;
     text-align: left;
-		font-style:
 }
 
 #inhalt a {

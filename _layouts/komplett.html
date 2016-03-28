@@ -12,7 +12,7 @@
 
 		<aside class = "right">
 			<a href = "#top">
-				<i class = "fa fa-arrow-up"></i>
+				<i class = ""></i>
 			</a>
 		</aside>
 
@@ -27,24 +27,24 @@
 				{% assign numbers =  chapter.number | split: "." %}
 				{% assign size = numbers | size %}
 
-				{% if size > 0 %} 
+				{% if size > 0 %}
 					{% assign n = numbers[0] | times: 1 %}
-					{% assign A1 = A1 | push: n %} 
+					{% assign A1 = A1 | push: n %}
 				{% endif %}
 
-				{% if size > 1 %} 
+				{% if size > 1 %}
 					{% assign n = numbers[1] | times: 1 %}
-					{% assign A2 = A2 | push: n %} 
+					{% assign A2 = A2 | push: n %}
 				{% endif %}
 
-				{% if size > 2 %} 
+				{% if size > 2 %}
 					{% assign n = numbers[2] | times: 1 %}
-					{% assign A3 = A3 | push: n %} 
+					{% assign A3 = A3 | push: n %}
 				{% endif %}
 
-				{% if size > 3 %} 
+				{% if size > 3 %}
 					{% assign n = numbers[3] | times: 1 %}
-					{% assign A4 = A4 | push: n %} 
+					{% assign A4 = A4 | push: n %}
 				{% endif %}
 
 		{% endfor %}
@@ -75,15 +75,15 @@
 						{% assign matching_chapters = site.chapters | where: "number", chapter_number %}
 
 						{% for chapter in matching_chapters | sort: "type" %}
-							{% assign sorted_chapters = sorted_chapters | push: chapter %}						
+							{% assign sorted_chapters = sorted_chapters | push: chapter %}
 						{% endfor %}
-						
+
 						{% if z == 0 %} {% break %} {% endif %}
 					{% endfor %}
 					{% if y == 0 %} {% break %} {% endif %}
 				{% endfor %}
 			{% endfor %}
-		{% endfor %} 
+		{% endfor %}
 
 
 		{% assign current_chapter = '1' %}
@@ -96,14 +96,14 @@
 				{% if main_chapter != current_chapter %}
 					{% assign current_chapter = main_chapter %}
 					</section>
-					<section class ="kapitel-{{current_chapter}}">	
+					<section class ="kapitel-{{current_chapter}}">
 				{% endif %}
 						{{ chapter.output }}
 
 			{% endfor %}
 
 			</section>
-			
+
 		</section>
 
 		{% include footer.html %}
