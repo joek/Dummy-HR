@@ -1,3 +1,21 @@
+@font-face {
+  font-family: "waldlaeuferzeichen-pfadfinden";
+  src:url("../fonts/waldlaeuferzeichen-pfadfinden.eot");
+  src:url("../fonts/waldlaeuferzeichen-pfadfinden.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/waldlaeuferzeichen-pfadfinden.woff") format("woff"),
+    url("../fonts/waldlaeuferzeichen-pfadfinden.ttf") format("truetype"),
+    url("../fonts/waldlaeuferzeichen-pfadfinden.svg#waldlaeuferzeichen-pfadfinden") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.vcpwlz-wlz-einzeln-25 {
+  content: "y";
+	transform:			rotate(-90deg);
+	transform-origin:	100% 100%;
+}
+
 body,
 html {
 	padding:			0;
