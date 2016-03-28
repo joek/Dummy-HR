@@ -2,9 +2,9 @@
 title: "Ausschreibung"
 number: "2.1"
 ---
-## Scoutlab – der VCP-Hackathon
+#### Scoutlab – der VCP-Hackathon
 
-## Pfadfinderinnen und Pfadfinder werden “Maker”
+#### Pfadfinderinnen und Pfadfinder werden “Maker”
 
 Pfadfinderinnen und Pfadfinder sind Entdecker. Sie erkunden ihre Umwelt und wollen sie verstehen und gestalten. Warum also nicht mal in einer Gruppenstunde oder in einem Lager-Workshop der Frage nachgehen, warum der Strom eben nicht aus der Steckdose kommt oder das Internet einfach aus der Luft?
 
