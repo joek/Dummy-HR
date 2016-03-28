@@ -21,6 +21,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "y";
+  transform:			rotate(-90deg);
 }
 
 .vcpwlz-wlz-einzeln-25:before {
