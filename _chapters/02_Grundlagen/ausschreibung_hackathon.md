@@ -25,7 +25,7 @@ In Zusammenarbeit mit dem Lehrstuhl Medienpädagogik
 
 **Programm:** Programmrahmen zum Scoutlab
 
-Die Reisekosten werden gemäß der Reisekostenordnung des VCP e.V. erstattet – (http://www.vcp.de/fahrtkosten).
+Die Reisekosten werden gemäß der Reisekostenordnung des VCP e.V. erstattet – <http://www.vcp.de/fahrtkosten>.
 
 Teilnehmen kann jede VCPerin und jeder VCPer ab 18 Jahren, Teilnehmende aus anderen Ringverbänden sind gerne willkommen!
 
