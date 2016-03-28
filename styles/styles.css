@@ -23,6 +23,19 @@
   content: "y";
 }
 
+.vcpwlz-wlz-einzeln-25:before {
+  font-family: "waldlaeuferzeichen-pfadfinden" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "y";
+}
+
 body,
 html {
 	padding:			0;
