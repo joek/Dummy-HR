@@ -21,8 +21,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   content: "y";
-	transform: rotate(-90deg);
-	transform-origin:	100% 100%;
 }
 
 body,
