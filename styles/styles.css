@@ -36,6 +36,7 @@
   -moz-osx-font-smoothing: grayscale;
   content: "y";
   transform:			rotate(-90deg);
+  font-weight:bold;
 }
 
 body,
