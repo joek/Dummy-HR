@@ -27,7 +27,7 @@
 .vcpwlz-wlz-einzeln-25:before {
   font-family: "waldlaeuferzeichen-pfadfinden" !important;
   font-style: normal !important;
-  font-weight: normal !important;
+  font-weight: bold !important;
   font-variant: normal !important;
   text-transform: none !important;
   speak: none;
@@ -36,7 +36,6 @@
   -moz-osx-font-smoothing: grayscale;
   content: "y";
   transform:			rotate(-90deg);
-  font-weight:bold;
 }
 
 body,
