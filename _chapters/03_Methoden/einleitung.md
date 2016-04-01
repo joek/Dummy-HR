@@ -1,4 +1,4 @@
 ---
-title: "Einleitung"
-number: "3"
+title: Einleitung
+number: 3
 ---

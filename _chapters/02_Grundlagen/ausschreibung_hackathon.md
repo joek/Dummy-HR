@@ -1,6 +1,6 @@
 ---
-title: "Ausschreibung"
-number: "2.1"
+title: Ausschreibung
+number: 2.1
 ---
 #### Scoutlab – der VCP-Hackathon
 

@@ -1,4 +1,4 @@
 ---
-title: "Grundlagen"
-number: "2"
+title: Grundlagen
+number: 2
 ---
