@@ -4,14 +4,14 @@
 		<article id = "kapitel-{{page.number}}" class ="chapter">
 			<h{{ page.number | split: "." | size | plus: 1}}>
 				<span class ="kapitel-nummer">{{page.number}}</span>
-				{{ page.title }}
+				{{page.title}}
 			</h{{ page.number | split: "." | size | plus: 1}}>
 			{{page.content | markdownify}}
 		</article>
 	{% else %}
 		<h{{ page.number | split: "." | size | plus: 1}}>
 				<span class ="kapitel-nummer">{{page.number}}</span>
-				{{ page.title }}
+				{{page.title}}
 		</h{{ page.number | split: "." | size | plus: 1}}>
 	{% endif %}
 
