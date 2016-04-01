@@ -11,7 +11,7 @@
 	{% else %}
 		<h{{ page.number | split: "." | size | plus: 1}}>
 				<span class ="kapitel-nummer">{{page.number}}</span>
-				{{page.title}}
+				{{page.title | markdownify}}
 		</h{{ page.number | split: "." | size | plus: 1}}>
 	{% endif %}
 

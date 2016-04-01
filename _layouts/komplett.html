@@ -89,14 +89,14 @@
 		{% assign current_chapter = '1' %}
 		{% assign chapters = sorted_chapters %}
 
-			<section class ="kapitel kapitel-1">
+			<section class ="kapitel-1">
 
 			{% for chapter in chapters %}
 				{% assign main_chapter = chapter.number | split: "." | first %}
 				{% if main_chapter != current_chapter %}
 					{% assign current_chapter = main_chapter %}
 					</section>
-					<section class ="hauptkapitel kapitel-{{current_chapter}}">
+					<section class ="kapitel-{{current_chapter}}">
 				{% endif %}
 						{{ chapter.output }}
 
