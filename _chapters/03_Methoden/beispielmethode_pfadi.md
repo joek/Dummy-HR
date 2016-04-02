@@ -7,7 +7,7 @@ number: 3.1.1
 ![Schaltplan LED & Raspberry Modell Pi 2](images/fritzing/blinking_Steckplatine.png)
 [Abb: Schaltplan für Raspberry Modell B+ und Modell Pi 2]
 
-![Schaltplan LED & Raspberry Modell Pi A+](images/2016/04/blinking_Modell_B_Steckplatine.png)
+![Schaltplan LED & Raspberry Modell Pi A+](images/fritzing/blinking_Modell_B_Steckplatine.png)
 [Abb: Schaltplan für Raspberry Modell Pi A+]
 
 ```
