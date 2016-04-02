@@ -3,7 +3,8 @@ baseurl: "Dummy-HR/"
 collections:
     - 01_Vorwort
     - 02_Grundlagen
-    - 03_Methoden 
+    - 03_Methoden
+    - 04_Impressum 
 
 collections:
     chapters:
