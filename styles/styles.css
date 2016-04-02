@@ -198,14 +198,19 @@ section.main-content {
 {
 list-style-type: none;
 line-height: normal;
+margin: 0px;
 }
-
+#inhalt li p{
+margin:0px;
+padding:0px;
+font-weight:normal;
+}
 #inhalt li {
 	display:			block;
 	white-space:		normal;
   padding: 0 0 0 0.5rem;
 	clear:				both;
-  margin:0;
+  margin:0px;
   font-weight: normal;
 }
 
@@ -215,6 +220,7 @@ line-height: normal;
     padding-right: 0.5rem;
     font-weight:normal;
     line-height: normal;
+    margin:0;
 }
 #inhalt li .kapitel-ueberschrift {
   display: block;
