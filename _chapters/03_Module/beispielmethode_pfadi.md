@@ -1,7 +1,8 @@
 ---
 title: blinkende LED
-number: 3.1.1
+number: 3.1
 ---
+## Zielgruppe: Pfadfinderinnen- und Pfadfinderstufe
 > Das Experiment funktioniert mit den Raspberry Pi Modellen B+, A+ und Pi 2.
 
 > [Abb: Schaltplan für Raspberry Modell B+ und Modell Pi 2]
