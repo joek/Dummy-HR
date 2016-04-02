@@ -126,8 +126,29 @@ h3, section.main-content h4 {
 	widows:1;
 }
 
+section.main-content h5 {
+  color:#004287;
+	font-family:Roboto, sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:500;
+	line-height:1.44;
+	margin-bottom:3px;
+	margin-left:0;
+	margin-right:0;
+	margin-top:3px;
+	orphans:1;
+	page-break-after:auto;
+	page-break-before:auto;
+	text-align:left;
+	text-decoration:underline;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
 
-section.main-content p {
+section.main-content p, section.main-content li {
     color:#000000;
 	font-family:Roboto, sans-serif;
 	font-size:1em;
