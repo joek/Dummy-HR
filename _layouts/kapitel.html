@@ -9,11 +9,13 @@
 			{{page.content | markdownify}}
 		</article>
 	{% else %}
+		<article id = "kapitel-{{page.number}}" class ="chapter">
 		<h{{ page.number | split: "." | size | plus: 1}}>
 				<span class ="kapitel-nummer">{{page.number}}</span>
 				{{page.title}}
 		</h{{ page.number | split: "." | size | plus: 1}}>
 		<p> </p>
+		</article>
 	{% endif %}
 
 {% endif %}
