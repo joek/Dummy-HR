@@ -204,6 +204,7 @@ list-style-type: none;
 	white-space:		normal;
 	padding-left:		0.5rem;
 	clear:				both;
+  margin:0;
 }
 
 #inhalt li .kapitel-nummer {
@@ -231,6 +232,7 @@ list-style-type: none;
 font-size:0.5 em;
 font-weight:normal;
 padding:0rem;
+margin:0;
 }
 
 
