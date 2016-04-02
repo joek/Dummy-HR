@@ -275,9 +275,8 @@ max-width: 100%;
 height:auto !important;
 }
 code {
-display: block;
+display: inline-block;;
 width: 100%;
-white-space:normal;
 background-color: #cfcfcf;
 font-family: monospace;
 }
