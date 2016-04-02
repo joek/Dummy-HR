@@ -276,6 +276,7 @@ height:auto !important;
 }
 code {
 width: 100%;
+white-space:normal;
 background-color: #cfcfcf;
 font-family: monospace;
 }
