@@ -2,7 +2,9 @@
 title: blinkende LED
 number: 3.1.1
 ---
-![Schaltplan LED & Raspberry Pi](images/fritzing/blinking_Steckplatine.png)
+> Das Experiment funktioniert mit den Raspberry Pi Modellen B+, A+ und Pi 2.
+
+![Schaltplan LED & Raspberry Modell Pi 2](images/fritzing/blinking_Steckplatine.png)
 
 ```
 [{"id":"b97752d2.e8ff","type":"function","z":"e3d3386.3d87dc8","name":
