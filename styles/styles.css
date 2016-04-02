@@ -213,23 +213,24 @@ list-style-type: none;
     padding-right: 0.5rem;
     font-weight:normal;
 }
-#inhalt li .kapitel-ueberschrift p {
-  float: left;
+#inhalt li .kapitel-ueberschrift {
+  display: block;
   text-align: left;
   padding-right: 0.5rem;
   font-weight:normal;
-  display:inline-block;
 }
 
 #inhalt a {
 	text-decoration:	none;
 	color:				inherit;
 	color:				#000;
+  display:			block;
+
 }
 #inhalt li .tiefe-2, #inhalt li .tiefe-3, #inhalt li .tiefe-4
 {
 font-size:0.5 em;
-font-weight:normal
+font-weight:normal;
 padding:0rem;
 }
 
