@@ -202,7 +202,6 @@ list-style-type: none;
 #inhalt li {
 	display:			block;
 	white-space:		normal;
-	padding:			0.125rem 0;
 	padding-left:		0.5rem;
 	clear:				both;
 }
