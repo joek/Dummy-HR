@@ -205,6 +205,7 @@ list-style-type: none;
 	padding-left:		0.5rem;
 	clear:				both;
   margin:0;
+  font-weight: normal;
 }
 
 #inhalt li .kapitel-nummer {
@@ -225,14 +226,12 @@ list-style-type: none;
 	color:				inherit;
 	color:				#000;
   display:			block;
-
+  font-weight: normal;
 }
 #inhalt li.tiefe-2, #inhalt li.tiefe-3, #inhalt li.tiefe-4
 {
-font-size:0.5 em;
+font-size: 0.5 rem;
 font-weight:normal;
-padding:0rem;
-margin:0;
 }
 
 
