@@ -219,7 +219,7 @@ section.main-content {
 {
 list-style-type: none;
 line-height: normal;
-margin: 0px;
+margin: 0;
 }
 #inhalt li p{
 margin:0 0 0.5em 0;
@@ -300,9 +300,9 @@ height:auto;
 
 
 ul {
-	list-style: 	none;
+	list-style: 	disc;
 	padding:			0;
-	margin:				0;
+	margin:				0 0 0.5em;
 }
 
 a {
