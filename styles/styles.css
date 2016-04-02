@@ -213,6 +213,13 @@ list-style-type: none;
     padding-right: 0.5rem;
     font-weight:normal;
 }
+#inhalt li .kapitel-ueberschrift {
+  float: left;
+  text-align: left;
+  padding-right: 0.5rem;
+  font-weight:normal;
+
+}
 
 #inhalt a {
 	text-decoration:	none;
@@ -222,8 +229,10 @@ list-style-type: none;
 #inhalt li .tiefe-2, #inhalt li .tiefe-3, #inhalt li .tiefe-4
 {
 font-size:0.5 em;
+font-weight:normal
 padding:0rem;
 }
+
 
 
 #vcp-logo {
