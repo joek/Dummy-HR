@@ -148,7 +148,7 @@ section.main-content h5 {
 	widows:1;
 }
 
-section.main-content p, section.main-content li {
+section.main-content p {
     color:#000000;
 	font-family:Roboto, sans-serif;
 	font-size:1em;
@@ -158,6 +158,25 @@ section.main-content p, section.main-content li {
 	line-height:1.5;
 	margin-bottom:1.5;
 	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	text-align:justify;
+	text-decoration:none;
+	text-indent:0;
+	text-transform:none;
+	widows:1;
+}
+
+section.main-content li {
+    color:#000000;
+	font-family:Roboto, sans-serif;
+	font-size:1em;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:300;
+	line-height:1.5;
+	margin-bottom:1.5;
+	margin-left:1.5;
 	margin-right:0;
 	margin-top:0;
 	text-align:justify;
@@ -305,9 +324,6 @@ ul {
 	margin:				0;
 }
 
-li {
-margin: 0 0 0 0.5em;
-}
 
 a {
 	text-decoration:	none;
