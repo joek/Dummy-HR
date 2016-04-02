@@ -275,7 +275,7 @@ max-width: 100%;
 height:auto !important;
 }
 code {
-max-width: 100%;
+width: 100%;
 background-color: #cfcfcf;
 font-family: monospace;
 }
