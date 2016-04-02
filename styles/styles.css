@@ -197,6 +197,7 @@ section.main-content {
 #inhalt ul
 {
 list-style-type: none;
+line-height: normal;
 }
 
 #inhalt li {
