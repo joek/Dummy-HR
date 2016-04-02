@@ -230,7 +230,7 @@ list-style-type: none;
 }
 #inhalt li.tiefe-2, #inhalt li.tiefe-3, #inhalt li.tiefe-4
 {
-font-size: 0.5 rem;
+font-size: 80%;
 font-weight:normal;
 }
 
