@@ -269,3 +269,8 @@ header {
 	bottom:				15rem;
 	padding:			0rem;
 }
+
+img {
+min-width: 100%;
+height:auto !important;  
+}
