@@ -275,6 +275,7 @@ max-width: 100%;
 height:auto !important;
 }
 code {
+display: block;
 width: 100%;
 white-space:normal;
 background-color: #cfcfcf;
