@@ -214,12 +214,14 @@ line-height: normal;
     text-align: left;
     padding-right: 0.5rem;
     font-weight:normal;
+    line-height: normal;
 }
 #inhalt li .kapitel-ueberschrift {
   display: block;
   text-align: left;
   padding-right: 0.5rem;
   font-weight:normal;
+  line-height: normal;
 }
 
 #inhalt a {
@@ -228,11 +230,13 @@ line-height: normal;
 	color:				#000;
   display:			block;
   font-weight: normal;
+  line-height: normal;
 }
 #inhalt li.tiefe-2, #inhalt li.tiefe-3, #inhalt li.tiefe-4
 {
 font-size: 80%;
 font-weight:normal;
+line-height: normal;
 }
 
 
