@@ -11,9 +11,8 @@
 	{% else %}
 		<h{{ page.number | split: "." | size | plus: 1}}>
 				<span class ="kapitel-nummer">{{page.number}}</span>
-				{{page.title}}
+				{{page.title}}<p></p>
 		</h{{ page.number | split: "." | size | plus: 1}}>
-		<p></p>
 	{% endif %}
 
 {% endif %}
