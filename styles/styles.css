@@ -210,6 +210,8 @@ list-style-type: none;
 #inhalt li .kapitel-nummer {
     float: left;
     text-align: left;
+    padding-right: 0.5rem;
+    font-weight:normal;
 }
 
 #inhalt a {
@@ -217,6 +219,12 @@ list-style-type: none;
 	color:				inherit;
 	color:				#000;
 }
+#inhalt li .tiefe-2, #inhalt li .tiefe-3, #inhalt li .tiefe-4
+{
+font-size:0.5 em;
+padding:0rem;
+}
+
 
 #vcp-logo {
 	position:			absolute;
