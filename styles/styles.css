@@ -213,7 +213,7 @@ list-style-type: none;
     padding-right: 0.5rem;
     font-weight:normal;
 }
-#inhalt li .kapitel-ueberschrift {
+#inhalt li .kapitel-ueberschrift p {
   float: left;
   text-align: left;
   padding-right: 0.5rem;
