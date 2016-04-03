@@ -26,6 +26,12 @@ ca. 30 Minuten
 
 Kopiere den unten stehenden Code in die Zwischenablage und füge diesen in den _Import Nodes Dialog_ ein (Import From - Clipboard im dropdown menu, or Ctrl-I). Den Import mit Okay bestätigen. Verschiebe jetzt noch den neuen Flow ein wenig.
 
+<video controls="controls">
+  <source type="video/mp4" src="videos/nodered_import.mp4"></source>
+  <source type="video/webm" src="videos/nodered_import.webm"></source>
+  <p>Your browser does not support the video element.</p>
+</video>
+
 ```
 [{"id":"b97752d2.e8ff","type":"function","z":"e3d3386.3d87dc8","name":
 "Toggle 0/1 on input","func":"\ncontext.state = context.state
