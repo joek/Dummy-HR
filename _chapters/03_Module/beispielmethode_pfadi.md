@@ -4,16 +4,16 @@ number: 3.2.1
 ---
 > Das Modul funktioniert mit den Raspberry Pi Modellen A+, B+, Pi 2  und Pi 3.
 
-#### Zielgruppe:
+##### Zielgruppe:
 Pfadfinderinnen- und Pfadfinderstufe
 
-#### Zielsetzung:
+##### Zielsetzung:
 einfache elektronische Scahltung, erste Schritte mit dem Wiring-Tool
 
-#### Dauer:
+##### Dauer:
 ca. 30 Minuten
 
-#### Material:
+##### Material:
 - 1 Raspberry Pi (Modell A+, B+, Pi 2 oder Pi 3)
 - 1 LED (5 mm)
 - 1 Widerstand (220 &#8486;)
