@@ -346,7 +346,7 @@ height:auto !important;
 }
 code {
 display: inline-block;
-width: 100%;
+max-width: 100%;
 background-color: #cfcfcf;
 font-family: monospace;
 padding:0.5em;
