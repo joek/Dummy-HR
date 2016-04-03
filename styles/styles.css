@@ -107,7 +107,7 @@ h2, section.main-content h3{
 h3, section.main-content h4 {
     color:#004287;
 	font-family:Roboto, sans-serif;
-	font-size:1em;
+	font-size:1.2em;
 	font-style:normal;
 	font-variant:normal;
 	font-weight:500;
@@ -310,7 +310,7 @@ height:auto;
 	color:				#fff;
 	margin:				0rem;
 	width:				18rem;
-	padding-right:		2rem;
+	padding-left:	 2rem;
 	padding-top:		2rem;
 	padding-bottom:		1rem;
 	text-align:			right;
