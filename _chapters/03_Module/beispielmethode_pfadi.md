@@ -15,6 +15,8 @@ ca. 30 Minuten
 - Raspberry Pi
 - 1 LED (5 mm)
 - 1 Widerstand ( Ohm)
+- Kabel (female auf male)
+- Steckbrett (Breadboard)
 
 > Das Modul funktioniert mit den Raspberry Pi Modellen A+, B+ und Pi 2.
 
