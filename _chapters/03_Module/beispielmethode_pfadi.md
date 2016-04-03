@@ -1,32 +1,35 @@
 ---
 title: Blinkende LED
-number: 3.1
+number: 3.2.1
 ---
+> Das Modul funktioniert mit den Raspberry Pi Modellen A+, B+, Pi 2  und Pi 3.
+
 #### Zielgruppe:
 Pfadfinderinnen- und Pfadfinderstufe
 
 #### Zielsetzung:
-
+einfache elektronische Scahltung, erste Schritte mit dem Wiring-Tool
 
 #### Dauer:
 ca. 30 Minuten
 
 #### Material:
-- Raspberry Pi
+- 1 Raspberry Pi (Modell A+, B+, Pi 2 oder Pi 3)
 - 1 LED (5 mm)
-- 1 Widerstand ( Ohm)
-- Kabel (female auf male)
+- 1 Widerstand (220 &#8486;)
+- 2 Kabel (female auf male)
 - Steckbrett (Breadboard)
 
-> Das Modul funktioniert mit den Raspberry Pi Modellen A+, B+ und Pi 2.
-
-##### [Abb: Schaltplan für Raspberry Modell B+ und Modell Pi 2]
+##### Abb: Schaltplan für Raspberry Modell B+ und Modell Pi 2
 ![Schaltplan LED & Raspberry Modell Pi 2](images/fritzing/blinking_Steckplatine.png)
 
-##### [Abb: Schaltplan für Raspberry Modell Pi A+]
+##### Abb: Schaltplan für Raspberry Modell Pi A+
 ![Schaltplan LED & Raspberry Modell Pi A+](images/fritzing/blinking_Modell_B_Steckplatine.png)
 
-Kopiere den unten stehenden Code in die Zwischenablage und füge diesen in den _Import Nodes Dialog_ ein (Import From - Clipboard im dropdown menu, or Ctrl-I). Den Import mit Okay bestätigen. Verschiebe jetzt noch den neuen Flow ein wenig.
+Kopiere den unten stehenden Code in die Zwischenablage deines Rechners. Füge dann den Code über den _Import Nodes Dialog_ ein ( Import From - Clipboard in der Dropdown-Navigation, or Ctrl-I ). Den Import mit _Okay_ bestätigen. Verschiebe jetzt noch den neuen Flow ein wenig.
+
+Klick dann auf den "**_deploy button_**" und der Flow sollte starten.
+Nach erflogreichem Start sollte die LED im Wechsel von einer Sekunden ein- und ausgeschaltet werden.
 
 <video controls="controls">
   <source type="video/mp4" src="videos/nodered_import.mp4"></source>
@@ -50,6 +53,3 @@ context.state = 0;\nmsg.payload = context.state;\n\nreturn msg;",
 "name":"","pin":"7","set":"","level":"0",
 "out":"out","x":682,"y":102,"wires":[]}]
 ```
-
-Klick auf den "**_deploy button_**" und der flow sollte starten.
-Die LED sollte dann, nach dem erflogreichen Start, für im Wechsel von einer Sekunden ein und ausgeschaltet werden.
