@@ -346,10 +346,12 @@ height:auto !important;
 }
 code {
 display: inline-block;
-max-width: 100%;
+width: 100%;
 background-color: #cfcfcf;
 font-family: monospace;
 padding:0.5em;
+overflow-y:			scroll;
+overflow-x:			scroll;
 }
 
 video {
