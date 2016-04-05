@@ -261,9 +261,6 @@ height:auto !important;
 @media (min-width: 950px) {
    /* breite Browserfenster */
 
-.wlz-einzeln-35 {
-display: none;
-}
 
    aside.left {
    	position:			fixed;
@@ -294,6 +291,10 @@ display: none;
    	line-height:   2em;
    	color:				#fff;
    	background:			#004287;
+   }
+
+   aside.right.wlz-einzeln-35 {
+   display: none;
    }
 
    section.main-content {
@@ -432,6 +433,10 @@ display: none;
     color:				#fff;
     background:			#004287;
    }
+
+   aside.right.wlz-einzeln-35 {
+    display:none;
+        }
 
    section.main-content {
     display:			block;
