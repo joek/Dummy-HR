@@ -66,6 +66,34 @@
   transform:			rotate(-90deg);
 }
 
+.vcpwlz-wlz-einzeln-35 {
+	font-family: "waldlaeuferzeichen-pfadfinden" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "I";
+  transform:			rotate(-90deg);
+}
+
+.vcpwlz-wlz-einzeln-35:before {
+  font-family: "waldlaeuferzeichen-pfadfinden" !important;
+  font-style: normal !important;
+  font-weight: bold !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "I";
+  transform:			rotate(-90deg);
+}
+
 body,
 html {
 	padding:			0;
@@ -186,136 +214,7 @@ section.main-content li {
 	widows:1;
 }
 
-aside.left {
-	position:			fixed;
-	left:				0;
-	bottom:				0;
-	width:				23rem;
-	padding:			1rem;
-	height:				auto;
-	text-align:			justify;
-	font-size:			0.8rem;
-}
 
-aside.right {
-	position:			fixed;
-	top:				0;
-	right:				0;
-	width:				4rem;
-	text-align:			center;
-}
-
-aside.right * {
-	display:			block;
-	font-size:			1.5rem;
-	margin:				1rem auto;
-	width:				2em;
-	height:				2em;
-	border-radius: 2em;
-	line-height:   2em;
-	color:				#fff;
-	background:			#004287;
-}
-
-section.main-content {
-	display:			block;
-	max-width:			40rem;
-	margin-left:		25rem;
-	padding-right:		4rem;
-	padding-left:		4rem;
-}
-#inhalt {
-	position:			absolute;
-	top:				8rem;
-	left:				0.5rem;
-	right:				1rem;
-	bottom:				0;
-	overflow-y:			scroll;
-	overflow-x:			hidden;
-	padding-top:		1rem;
-}
-#inhalt ul
-{
-list-style-type: none;
-line-height: normal;
-margin: 0;
-}
-#inhalt li p{
-margin:0 0 0.5em 0;
-padding:0px;
-font-weight:normal;
-}
-#inhalt li {
-	display:			block;
-	white-space:		normal;
-  padding: 0 0 0 0.5rem;
-	clear:				both;
-  margin:0px;
-  font-weight: normal;
-}
-
-#inhalt li .kapitel-nummer {
-    float: left;
-    text-align: left;
-    padding-right: 0.5rem;
-    font-weight:normal;
-    line-height: normal;
-    margin:0;
-}
-#inhalt li .kapitel-ueberschrift {
-  display: block;
-  text-align: left;
-  padding-right: 0.5rem;
-  font-weight:normal;
-  line-height: normal;
-}
-
-#inhalt a {
-	text-decoration:	none;
-	color:				inherit;
-	color:				#000;
-  display:			block;
-  font-weight: normal;
-  line-height: normal;
-}
-#inhalt li.tiefe-2, #inhalt li.tiefe-3, #inhalt li.tiefe-4
-{
-font-size: 80%;
-font-weight:normal;
-line-height: normal;
-}
-
-
-
-#vcp-logo {
-	position:			absolute;
-	background:			#004287;
-	width:				24rem;
-	height:				8rem;
-	z-index:			999;
-}
-
-
-#VCP-Wortbildmarke {
-margin:5px 0 0 5px;
-max-width:80%;
-height:auto;
-}
-
-#vcp-logo h1 {
-	position:			absolute;
-	bottom:				0;
-	right:				0;
-	font-size:			1rem;
-	color:				#fff;
-	margin:				0rem;
-	width:				18rem;
-	padding-left:	 1rem;
-	padding-top:		2rem;
-	padding-bottom:		1rem;
-	text-align:			left;
-	font-family:		Roboto, sans-serif;
-}
 
 
 ul {
@@ -358,3 +257,412 @@ video {
 max-width: 100%;
 height:auto !important;
 }
+
+@media (min-width: 950px) {
+   /* breite Browserfenster */
+
+.wlz-einzeln-35 {
+display: none;
+}
+
+   aside.left {
+   	position:			fixed;
+   	left:				0;
+   	bottom:				0;
+   	width:				23rem;
+   	padding:			1rem;
+   	height:				auto;
+   	text-align:			justify;
+   	font-size:			0.8rem;
+   }
+
+   aside.right {
+   	position:			fixed;
+   	top:				0;
+   	right:				0;
+   	width:				4rem;
+   	text-align:			center;
+   }
+
+   aside.right * {
+   	display:			block;
+   	font-size:			1.5rem;
+   	margin:				1rem auto;
+   	width:				2em;
+   	height:				2em;
+   	border-radius: 2em;
+   	line-height:   2em;
+   	color:				#fff;
+   	background:			#004287;
+   }
+
+   section.main-content {
+   	display:			block;
+   	max-width:			40rem;
+   	margin-left:		25rem;
+   	padding-right:		4rem;
+   	padding-left:		4rem;
+   }
+   #inhalt {
+   	position:			absolute;
+   	top:				8rem;
+   	left:				0.5rem;
+   	right:				1rem;
+   	bottom:				0;
+   	overflow-y:			scroll;
+   	overflow-x:			hidden;
+   	padding-top:		1rem;
+   }
+   #inhalt ul
+   {
+   list-style-type: none;
+   line-height: normal;
+   margin: 0;
+   }
+   #inhalt li p{
+   margin:0 0 0.5em 0;
+   padding:0px;
+   font-weight:normal;
+   }
+   #inhalt li {
+   	display:			block;
+   	white-space:		normal;
+     padding: 0 0 0 0.5rem;
+   	clear:				both;
+     margin:0px;
+     font-weight: normal;
+   }
+
+   #inhalt li .kapitel-nummer {
+       float: left;
+       text-align: left;
+       padding-right: 0.5rem;
+       font-weight:normal;
+       line-height: normal;
+       margin:0;
+   }
+   #inhalt li .kapitel-ueberschrift {
+     display: block;
+     text-align: left;
+     padding-right: 0.5rem;
+     font-weight:normal;
+     line-height: normal;
+   }
+
+   #inhalt a {
+   	text-decoration:	none;
+   	color:				inherit;
+   	color:				#000;
+     display:			block;
+     font-weight: normal;
+     line-height: normal;
+   }
+   #inhalt li.tiefe-2, #inhalt li.tiefe-3, #inhalt li.tiefe-4
+   {
+   font-size: 80%;
+   font-weight:normal;
+   line-height: normal;
+   }
+
+
+
+   #vcp-logo {
+   	position:			absolute;
+   	background:			#004287;
+   	width:				24rem;
+   	height:				8rem;
+   	z-index:			999;
+   }
+
+
+   #VCP-Wortbildmarke {
+   margin:5px 0 0 5px;
+   max-width:80%;
+   height:auto;
+   }
+
+   #vcp-logo h1 {
+   	position:			absolute;
+   	bottom:				0;
+   	right:				0;
+   	font-size:			1rem;
+   	color:				#fff;
+   	margin:				0rem;
+   	width:				18rem;
+   	padding-left:	 1rem;
+   	padding-top:		2rem;
+   	padding-bottom:		1rem;
+   	text-align:			left;
+   	font-family:		Roboto, sans-serif;
+   }
+ }
+ @media (min-width: 450px) and
+  (max-width: 950px) {
+   /* Darstellung auf Netbooks */
+   .wlz-einzeln-35 {
+    display:none;
+        }
+   aside.left {
+    position:			fixed;
+    left:				0;
+    bottom:				0;
+    width:				23rem;
+    padding:			1rem;
+    height:				auto;
+    text-align:			justify;
+    font-size:			0.8rem;
+   }
+
+   aside.right {
+    position:			fixed;
+    top:				0;
+    right:				0;
+    width:				4rem;
+    text-align:			center;
+   }
+
+   aside.right * {
+    display:			block;
+    font-size:			1.5rem;
+    margin:				1rem auto;
+    width:				2em;
+    height:				2em;
+    border-radius: 2em;
+    line-height:   2em;
+    color:				#fff;
+    background:			#004287;
+   }
+
+   section.main-content {
+    display:			block;
+    max-width:			40rem;
+    margin-left:		25rem;
+    padding-right:		4rem;
+    padding-left:		4rem;
+   }
+   #inhalt {
+    position:			absolute;
+    top:				8rem;
+    left:				0.5rem;
+    right:				1rem;
+    bottom:				0;
+    overflow-y:			scroll;
+    overflow-x:			hidden;
+    padding-top:		1rem;
+   }
+   #inhalt ul
+   {
+   list-style-type: none;
+   line-height: normal;
+   margin: 0;
+   }
+   #inhalt li p{
+   margin:0 0 0.5em 0;
+   padding:0px;
+   font-weight:normal;
+   }
+   #inhalt li {
+    display:			block;
+    white-space:		normal;
+     padding: 0 0 0 0.5rem;
+    clear:				both;
+     margin:0px;
+     font-weight: normal;
+   }
+
+   #inhalt li .kapitel-nummer {
+       float: left;
+       text-align: left;
+       padding-right: 0.5rem;
+       font-weight:normal;
+       line-height: normal;
+       margin:0;
+   }
+   #inhalt li .kapitel-ueberschrift {
+     display: block;
+     text-align: left;
+     padding-right: 0.5rem;
+     font-weight:normal;
+     line-height: normal;
+   }
+
+   #inhalt a {
+    text-decoration:	none;
+    color:				inherit;
+    color:				#000;
+     display:			block;
+     font-weight: normal;
+     line-height: normal;
+   }
+   #inhalt li.tiefe-2, #inhalt li.tiefe-3, #inhalt li.tiefe-4
+   {
+   font-size: 80%;
+   font-weight:normal;
+   line-height: normal;
+   }
+
+
+
+   #vcp-logo {
+    position:			absolute;
+    background:			#004287;
+    width:				24rem;
+    height:				8rem;
+    z-index:			999;
+   }
+
+
+   #VCP-Wortbildmarke {
+   margin:5px 0 0 5px;
+   max-width:80%;
+   height:auto;
+   }
+
+   #vcp-logo h1 {
+    position:			absolute;
+    bottom:				0;
+    right:				0;
+    font-size:			1rem;
+    color:				#fff;
+    margin:				0rem;
+    width:				18rem;
+    padding-left:	 1rem;
+    padding-top:		2rem;
+    padding-bottom:		1rem;
+    text-align:			left;
+    font-family:		Roboto, sans-serif;
+   }
+ }
+ @media (max-width: 450px) {
+     /* mobile Geräte */
+     aside.left {
+      position:			fixed;
+      left:				0;
+      bottom:				0;
+      width:				23rem;
+      padding:			1rem;
+      height:				auto;
+      text-align:			justify;
+      font-size:			0.8rem;
+     }
+
+     aside.right {
+      position:			fixed;
+      top:				0;
+      right:				0;
+      width:				4rem;
+      text-align:			center;
+     }
+
+     aside.right * {
+      display:			block;
+      font-size:			1.5rem;
+      margin:				1rem auto;
+      width:				2em;
+      height:				2em;
+      border-radius: 2em;
+      line-height:   2em;
+      color:				#fff;
+      background:			#004287;
+     }
+
+     section.main-content {
+      display:			block;
+      max-width:			40rem;
+      margin-left:		25rem;
+      padding-right:		4rem;
+      padding-left:		4rem;
+     }
+     #inhalt {
+      position:			absolute;
+      top:				8rem;
+      left:				0.5rem;
+      right:				1rem;
+      bottom:				0;
+      overflow-y:			scroll;
+      overflow-x:			hidden;
+      padding-top:		1rem;
+     }
+     #inhalt ul
+     {
+     list-style-type: none;
+     line-height: normal;
+     margin: 0;
+     }
+     #inhalt li p{
+     margin:0 0 0.5em 0;
+     padding:0px;
+     font-weight:normal;
+     }
+     #inhalt li {
+      display:			block;
+      white-space:		normal;
+       padding: 0 0 0 0.5rem;
+      clear:				both;
+       margin:0px;
+       font-weight: normal;
+     }
+
+     #inhalt li .kapitel-nummer {
+         float: left;
+         text-align: left;
+         padding-right: 0.5rem;
+         font-weight:normal;
+         line-height: normal;
+         margin:0;
+     }
+     #inhalt li .kapitel-ueberschrift {
+       display: block;
+       text-align: left;
+       padding-right: 0.5rem;
+       font-weight:normal;
+       line-height: normal;
+     }
+
+     #inhalt a {
+      text-decoration:	none;
+      color:				inherit;
+      color:				#000;
+       display:			block;
+       font-weight: normal;
+       line-height: normal;
+     }
+     #inhalt li.tiefe-2, #inhalt li.tiefe-3, #inhalt li.tiefe-4
+     {
+     font-size: 80%;
+     font-weight:normal;
+     line-height: normal;
+     }
+
+
+
+     #vcp-logo {
+      position:			absolute;
+      background:			#004287;
+      width:				24rem;
+      height:				8rem;
+      z-index:			999;
+     }
+
+
+     #VCP-Wortbildmarke {
+     margin:5px 0 0 5px;
+     max-width:80%;
+     height:auto;
+     }
+
+     #vcp-logo h1 {
+      position:			absolute;
+      bottom:				0;
+      right:				0;
+      font-size:			1rem;
+      color:				#fff;
+      margin:				0rem;
+      width:				18rem;
+      padding-left:	 1rem;
+      padding-top:		2rem;
+      padding-bottom:		1rem;
+      text-align:			left;
+      font-family:		Roboto, sans-serif;
+     }
+   }
